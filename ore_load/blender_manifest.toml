@@ -1,0 +1,23 @@
+schema_version = "1.0.0"
+
+id = "ore_load"
+version = "0.1.0"
+name = "Ore Load Generator"
+tagline = "3D-printable hollow ore and coal loads for model railroad ore cars"
+maintainer = "John <john@singerlinks.com>"
+type = "add-on"
+
+blender_version_min = "4.5.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Add Mesh", "Import-Export"]
+
+[permissions]
+files = "Export ore loads as STL files and save presets"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "*.pyc",
+  "tests/",
+]
